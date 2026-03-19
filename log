@@ -70,3 +70,21 @@ exercises.c:75:17: error: expected ‘)’ before ‘elemento’
       |          ~      ^~~~~~~~
       |                 )
 b5bb771
+Thu Mar 19 07:13:23 PM UTC 2026: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+Compilation failed
+In file included from test.c:5:
+exercises.c: In function ‘eliminaElementos’:
+exercises.c:75:20: error: comparison between pointer and integer [-Werror]
+   75 |       if((elemento == elem) popCurrent(L);
+      |                    ^~
+exercises.c:75:28: error: expected ‘)’ before ‘popCurrent’
+   75 |       if((elemento == elem) popCurrent(L);
+      |         ~                  ^~~~~~~~~~~
+      |                            )
+exercises.c:78:4: error: expected expression before ‘}’ token
+   78 |    }
+      |    ^
+cc1: all warnings being treated as errors
+4aa16fe
