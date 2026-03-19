@@ -112,3 +112,15 @@ exercises.c:46:1: error: control reaches end of non-void function [-Werror=retur
       | ^
 cc1: all warnings being treated as errors
 573a0dc
+Thu Mar 19 07:17:44 PM UTC 2026: 
+Compilation failed
+In file included from test.c:5:
+exercises.c: In function ‘crea_lista’:
+exercises.c:45:10: error: unused variable ‘L’ [-Werror=unused-variable]
+   45 |    List* L = create_list();
+      |          ^
+exercises.c:46:1: error: control reaches end of non-void function [-Werror=return-type]
+   46 | }
+      | ^
+cc1: all warnings being treated as errors
+d768d6f
