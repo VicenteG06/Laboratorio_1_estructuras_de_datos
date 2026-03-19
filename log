@@ -20,3 +20,17 @@ exercises.c:75:19: error: comparison between pointer and integer [-Werror]
       |                   ^~
 cc1: all warnings being treated as errors
 be3424e
+Thu Mar 19 07:10:08 PM UTC 2026: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Compilation failed
+In file included from test.c:5:
+exercises.c: In function ‘eliminaElementos’:
+exercises.c:75:17: error: dereferencing ‘void *’ pointer [-Werror]
+   75 |       if(((int) *elemento) == elem) popCurrent(L);
+      |                 ^~~~~~~~~
+exercises.c:75:11: error: invalid use of void expression
+   75 |       if(((int) *elemento) == elem) popCurrent(L);
+      |           ^
+cc1: all warnings being treated as errors
+4ef3295
